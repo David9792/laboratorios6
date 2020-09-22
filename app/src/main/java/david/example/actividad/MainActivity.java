@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             case R.id.btn3:{
                 Intent actividad3 =new Intent(this,Actividad3.class);
-                actividad3.putExtra("msn","Actividad 3");
+                actividad3.putExtra("msn","Actividad3");
                 startActivity(actividad3);
                 break;
 
             }
             case R.id.btn4:{
                 Intent actividad4 =new Intent(this,Actividad4.class);
-                actividad4.putExtra("msn","Actividad 4");
+                actividad4.putExtra("msn","Actividad4");
                 startActivity(actividad4);
                 break;
 
