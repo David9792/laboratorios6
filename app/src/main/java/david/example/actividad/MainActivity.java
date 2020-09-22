@@ -32,14 +32,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch(v.getId()){
             case R.id.btn1:{
                 Intent actividad1 =new Intent(this,Actividad1.class);
-                actividad1.putExtra("msn","Actividad 1");
+                actividad1.putExtra("msn","Actividad1");
                 startActivity(actividad1);
                 break;
 
             }
             case R.id.btn2:{
                 Intent actividad2 =new Intent(this,Actividad2.class);
-                actividad2.putExtra("msn","Actividad 2");
+                actividad2.putExtra("msn","Actividad2");
                 startActivity(actividad2);
                 break;
 
